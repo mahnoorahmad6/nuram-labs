@@ -1,0 +1,197 @@
+.lifecycle-section {
+  padding: 80px 0;
+}
+
+.lifecycle-section h2 {
+  text-align: center;
+  margin-bottom: 60px;
+  font-family: var(--font-display);
+  color: var(--ink);
+}
+
+.lifecycle {
+  max-width: 850px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.lifecycle-step {
+  display: flex;
+  gap: 30px;
+  position: relative;
+  padding-bottom: 45px;
+}
+
+.step-number {
+  min-width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--navy);
+  color: var(--white);
+  font-family: var(--font-display);
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.step-content {
+  padding-top: 5px;
+}
+
+.step-content h3 {
+  margin-bottom: 10px;
+  color: var(--ink);
+}
+
+.step-content p {
+  color: var(--ink-muted);
+  line-height: 1.7;
+  max-width: 650px;
+}
+
+/* ---------- CTA card wrapping the Contact button ---------- */
+
+.lifecycle-cta {
+  text-align: center;
+  margin-top: 60px;
+  padding: 50px 20px;
+  border-radius: 16px;
+  background: var(--navy-dark);
+  position: relative;
+  z-index: 1;
+}
+
+.lifecycle-cta h2 {
+  margin-bottom: 10px;
+  color: var(--white);
+}
+
+.lifecycle-cta p {
+  color: var(--on-navy-muted);
+  margin-bottom: 25px;
+}
+.lifecycle-cta-simple {
+  
+  margin-top: 50px;
+}
+.step-trigger {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.step-trigger h3 {
+  margin: 0;
+  color: var(--ink);
+}
+
+.step-caret {
+  font-size: 0.85rem;
+  color: var(--navy);
+  transition: transform 0.25s ease;
+  flex-shrink: 0;
+}
+
+.step-caret--open {
+  transform: rotate(180deg);
+}
+
+.step-body {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease;
+}
+
+.step-body--open {
+  grid-template-rows: 1fr;
+}
+
+.step-body-inner {
+  overflow: hidden;
+}
+
+.step-body--open .step-body-inner {
+  padding-top: 10px;
+}
+
+.step-body p {
+  color: var(--ink-muted);
+  line-height: 1.7;
+  max-width: 650px;
+  margin: 0;
+}
+.step-bullets {
+  margin: 12px 0 0;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.step-bullets li {
+  color: var(--ink-muted);
+  font-size: 0.93rem;
+  line-height: 1.6;
+  list-style: disc;
+}
+
+.step-bullets li::marker {
+  color: var(--sand);
+}
+@media (max-width: 768px) {
+  .page-hero {
+    padding: 48px 0 40px;
+  }
+
+  .page-hero h1 {
+    font-size: 1.7rem;
+  }
+
+  .lifecycle-section {
+    padding: 48px 0;
+  }
+
+  .lifecycle-section h2 {
+    font-size: 1.4rem;
+    margin-bottom: 36px;
+  }
+
+  .lifecycle-step {
+    gap: 16px;
+    padding-bottom: 30px;
+  }
+
+  .step-number {
+    min-width: 40px;
+    height: 40px;
+    font-size: 0.8rem;
+  }
+
+  .step-trigger h3 {
+    font-size: 1rem;
+  }
+
+  .step-body p {
+    font-size: 0.88rem;
+  }
+
+  .step-bullets li {
+    font-size: 0.85rem;
+  }
+
+  .lifecycle-cta {
+    padding: 32px 20px;
+    margin-top: 40px;
+  }
+
+  .lifecycle-cta h2 {
+    font-size: 1.3rem;
+  }
+}
