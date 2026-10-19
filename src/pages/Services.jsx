@@ -48,7 +48,7 @@ const services = [
     ],
   },
   {
-    icon: '✦',
+    icon: '⌘',
     title: 'Mobile App Development',
     slug: 'mobile-development',
     text: 'Create high-quality mobile applications that deliver seamless experiences across devices and platforms.',
