@@ -66,20 +66,21 @@
   height: 16px;
   color:white
 }
-
 .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding: 40px 0;
-   padding-right: 54px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   font-size: 0.8rem;
   color: rgba(255, 255, 255, 0.55);
 }
-.footer-bottom .footer-links a { margin-left: 8px; }
-.footer-bottom .footer-links a:hover { color: var(--sand); }
+
+.footer-bottom p {
+  margin-right: 54px; /* distance from the right edge, adjust to taste */
+}
 
 @media (max-width: 700px) {
   .footer-inner { grid-template-columns: 1fr; }
   .footer-bottom { flex-direction: column; gap: 10px; text-align: center; }
+  .footer-bottom p { margin-right: 0; }
 }
