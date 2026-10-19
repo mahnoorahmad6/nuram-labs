@@ -7,14 +7,14 @@ import { Link } from 'react-router-dom';
 import woman from '../assets/woman.jpeg';
 import umair from '../assets/umair.jpg';
 const team = [
-  { name: 'Umair Ahmad', role: 'Founder', img: umair ,linkedin: 'http://linkedin.com/in/umairahmedtoor/'},
+  { name: 'Umair Ahmed', role: 'Founder', img: umair ,linkedin: 'http://linkedin.com/in/umairahmedtoor/'},
   { name: 'Mahnoor Ahmad', role: 'Co-Founder', img: woman ,linkedin: 'https://www.linkedin.com/in/mahnoor-ahmad-47b169225/'},
 ];
 
 const values = [
   { icon: '◆', title: 'Innovation With Purpose', text: "We use technology to solve real business problems, not just to follow trends" },
   { icon: '◎', title: 'Build For Impact', text: "We create solutions that are practical, scalable, and designed to deliver measurable value" },
-  { icon: '◐', title: 'Partnership Over Process', text: "We don't believe in one-size-fits-all solutions. We take the time to understand your needs, collaborate closely, and turn your ideas into outcomes that create meaningful value." },
+  { icon: '⌬', title: 'Partnership Over Process', text: "We don't believe in one-size-fits-all solutions. We take the time to understand your needs, collaborate closely, and turn your ideas into outcomes that create meaningful value" },
 ];
 
 export default function About() {
@@ -24,7 +24,7 @@ export default function About() {
         <div className="container">
           <p className="eyebrow">About Us</p>
           <h1>Built On Trust, Driven By Results</h1>
-          <p>Since 2023, Nuram Labs  has partnered with organizations of every size to solve their hardest operational and strategic challenges.</p>
+          <p>Since 2023, Nuram Labs has partnered with organizations of all sizes to solve complex business challenges through innovative technology, intelligent automation, and scalable software solutions.</p>
         </div>
       </section>
 
@@ -39,7 +39,7 @@ export default function About() {
             <p> Nuram Labs is a technology company focused on building practical digital
   solutions that help businesses work smarter, move faster, and grow with
   confidence. From modern web applications to custom software and AI-powered
-  solutions, we turn ideas and business challenges into technology that works.We believe great software should be simple, scalable, and built around the
+  solutions, we turn ideas and business challenges into technology that works. We believe great software should be simple, scalable, and built around the
   people who use it.</p>
           </div>
         </div>

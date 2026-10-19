@@ -378,7 +378,7 @@ const industryData = {
 
 
   'hr': {
-    title: 'Human Resource Solutions',
+    title: 'Human Resources Solutions',
     image: 'https://images.unsplash.com/photo-1521737711867-e3b97375f902',
     intro:
       'HR software helps organizations manage employees, recruitment, attendance, performance, and workforce processes.',

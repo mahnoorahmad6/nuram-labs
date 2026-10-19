@@ -76,7 +76,7 @@ export default function Contact() {
               <div className="info-icon">📍</div>
               <div>
                 <h4>Pakistan Office</h4>
-                <p>Near Doctor's Hospital, Johar Town, Lhr, Pakistan</p>
+                <p>Near Doctor's Hospital, Johar Town, Lahore, Pakistan</p>
               </div>
             </div>
 

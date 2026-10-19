@@ -42,7 +42,7 @@ const services = [
       { title: 'Learning Management System', link: '/services/industry/lms', text: 'Digital platforms for managing learning, training, and educational content.' },
       { title: 'CMMS', link: '/services/industry/cmms', text: 'Computerized maintenance management solutions for organizations.' },
       { title: 'Legal', link: '/services/industry/legal', text: 'Technology solutions designed to streamline legal workflows.' },
-      { title: 'Human Resource', link: '/services/industry/hr', text: 'Solutions for managing employees, recruitment, and HR operations.' },
+      { title: 'Human Resources', link: '/services/industry/hr', text: 'Solutions for managing employees, recruitment, and HR operations.' },
       { title: 'Facility Management', link: '/services/industry/facility-management', text: 'Manage facilities, maintenance, resources, and daily operations.' },
       { title: 'Property Management', link: '/services/industry/property-management', text: 'Technology solutions for managing properties, tenants, and operations.' },
     ],

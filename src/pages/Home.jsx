@@ -53,31 +53,31 @@ export default function Home() {
             <h2 className="section-title">Our Core Services</h2>
           </div>
 
-          <div className="services-grid">
-            <Link to="/services" className="service-card fade-up visible">
-              <div className="service-icon">◆</div>
-              <h3>MVP Development</h3>
-              <p>We help leadership teams clarify vision, define priorities, and build the roadmaps that drive long-term growth.</p>
-            </Link>
+         <div className="services-grid">
+  <Link to="/services#mvp-development" className="service-card fade-up visible">
+    <div className="service-icon">◆</div>
+    <h3>MVP Development</h3>
+    <p>We help businesses turn ideas into functional MVPs through rapid prototyping, core feature development, and hands-on engineering to bring products to life</p>
+  </Link>
 
-            <Link to="/services" className="service-card fade-up visible">
-              <div className="service-icon">◎</div>
-              <h3>AI Development</h3>
-              <p>Streamline workflows, reduce friction, and implement systems that scale with your organization.</p>
-            </Link>
+  <Link to="/services#ai-development" className="service-card fade-up visible">
+    <div className="service-icon">◎</div>
+    <h3>AI Development</h3>
+    <p>Automate workflows, integrate machine learning models, and deploy scalable AI solutions that optimize business operations.</p>
+  </Link>
 
-            <Link to="/services" className="service-card fade-up visible">
-              <div className="service-icon">◐</div>
-              <h3>Mobile App Development</h3>
-              <p>From technology audits to full implementation, we guide your transition to modern digital infrastructure.</p>
-            </Link>
+  <Link to="/services#industry-development" className="service-card fade-up visible">
+    <div className="service-icon">◐</div>
+    <h3>Industry Specific Development</h3>
+    <p>We engineer tailored software solutions around your industry's unique workflows, business requirements, and operational challenges.</p>
+  </Link>
 
-            <Link to="/services" className="service-card fade-up visible">
-              <div className="service-icon">◐</div>
-              <h3>Industry Specific Development</h3>
-              <p>From technology audits to full implementation, we guide your transition to modern digital infrastructure.</p>
-            </Link>
-          </div>
+  <Link to="/services#mobile-development" className="service-card fade-up visible">
+    <div className="service-icon">⌘</div>
+    <h3>Mobile App Development</h3>
+    <p>We build intuitive, high-performance mobile applications with seamless user experiences, robust functionality, and scalable architecture for iOS and Android</p>
+  </Link>
+</div>
 
           <div className="services-cta fade-up visible">
             <Button to="/services" variant="outline-dark">See All Services →</Button>

@@ -191,97 +191,99 @@ const lifecycleData = {
   // MOBILE APP MVP (older separate entry)
   // =========================
 
-  mobile: {
-    title: 'Mobile App MVP Development',
-    description:
-      'Launch your mobile product quickly with a focused MVP containing the features that matter most.',
-    steps: [
-      {
-        number: '01',
-        title: 'Idea Discovery',
-        text: 'We understand your mobile app idea, target audience, and business objectives.',
-        bullets: [
-          'Clarify the problem your mobile app aims to solve.',
-          'Identify your target audience and their mobile habits.',
-          'Understand the business goals behind the app.',
-          'Review comparable apps already in the market.',
-          'Confirm the concept is ready to move into planning.',
-        ],
-      },
-      {
-        number: '02',
-        title: 'Feature Planning',
-        text: 'We define and prioritize the core features required for the first version of the application.',
-        bullets: [
-          'List candidate features for the first release.',
-          'Prioritize by what proves the core value fastest.',
-          'Cut anything not essential to the first version.',
-          'Define how each feature should behave at a high level.',
-          'Lock the scope before design begins.',
-        ],
-      },
-      {
-        number: '03',
-        title: 'Mobile UI/UX Design',
-        text: 'We create intuitive interfaces optimized for mobile users.',
-        bullets: [
-          'Design around mobile-first interaction patterns.',
-          'Keep navigation simple for small screens.',
-          'Design for both common device sizes and orientations.',
-          'Review flows for thumb-friendly usability.',
-          'Finalize screens ready for development handoff.',
-        ],
-      },
-      {
-        number: '04',
-        title: 'App Development',
-        text: 'We develop the core mobile application and integrate the required functionality.',
-        bullets: [
-          'Build out screens in priority order.',
-          'Integrate core functionality and any required APIs.',
-          'Implement authentication and user data handling.',
-          'Keep builds scoped strictly to the agreed features.',
-          'Review progress against the original plan regularly.',
-        ],
-      },
-      {
-        number: '05',
-        title: 'Testing',
-        text: 'We test the application across relevant devices and fix issues.',
-        bullets: [
-          'Test on a representative range of real devices.',
-          'Check performance on both new and older hardware.',
-          'Fix bugs affecting core functionality first.',
-          'Verify the app behaves correctly offline and online.',
-          'Confirm stability before moving to launch.',
-        ],
-      },
-      {
-        number: '06',
-        title: 'Launch',
-        text: 'We prepare and launch the MVP for your target users.',
-        bullets: [
-          'Prepare store listings and required assets.',
-          'Submit the app for platform review where required.',
-          'Coordinate launch timing with your team.',
-          'Monitor the rollout closely in the first days.',
-          'Be ready to respond quickly to early issues.',
-        ],
-      },
-      {
-        number: '07',
-        title: 'Improve & Scale',
-        text: 'We analyze feedback and continuously improve the application.',
-        bullets: [
-          'Gather feedback and usage data from real users.',
-          'Identify the highest-impact improvements first.',
-          'Plan and prioritize the next development cycle.',
-          'Address performance or stability issues as they emerge.',
-          'Scale features based on validated user demand.',
-        ],
-      },
-    ],
-  },
+  
+mobile: {
+  title: 'Mobile App Development',
+  description:
+    'Design, develop, and deploy high-performance mobile applications with robust architecture, seamless integrations, and intuitive user experiences.',
+  steps: [
+    {
+      number: '01',
+      title: 'Requirements & Discovery',
+      text: 'We translate business objectives and user requirements into a clearly defined mobile application specification.',
+      bullets: [
+        'Analyze business workflows, user needs, and functional requirements.',
+        'Define application features, user roles, and access permissions.',
+        'Identify platform requirements for iOS and Android.',
+        'Evaluate third-party integrations and external dependencies.',
+        'Establish technical constraints, performance targets, and project scope.',
+      ],
+    },
+    {
+      number: '02',
+      title: 'Technical Architecture',
+      text: 'We design a scalable application architecture aligned with functional requirements, performance needs, and long-term maintainability.',
+      bullets: [
+        'Select an appropriate native or cross-platform technology stack.',
+        'Define application architecture and modular component boundaries.',
+        'Design API contracts and backend communication patterns.',
+        'Plan database integration, state management, and data synchronization.',
+        'Establish security, scalability, and performance requirements.',
+      ],
+    },
+    {
+      number: '03',
+      title: 'UI/UX Design',
+      text: 'We design accessible, responsive mobile interfaces that deliver consistent experiences across devices and platforms.',
+      bullets: [
+        'Map user journeys, navigation flows, and interaction patterns.',
+        'Develop wireframes and high-fidelity interface designs.',
+        'Build reusable design systems and UI components.',
+        'Optimize layouts for different screen sizes and orientations.',
+        'Validate usability, accessibility, and platform-specific design conventions.',
+      ],
+    },
+    {
+      number: '04',
+      title: 'Application Development',
+      text: 'We implement core application functionality using modular code, established engineering practices, and reliable integrations.',
+      bullets: [
+        'Develop reusable components and application modules.',
+        'Implement authentication, authorization, and session management.',
+        'Integrate REST APIs, backend services, and third-party SDKs.',
+        'Implement local storage, caching, and data synchronization.',
+        'Develop device-specific functionality, push notifications, and background processing where required.',
+      ],
+    },
+    {
+      number: '05',
+      title: 'Testing & Quality Assurance',
+      text: 'We validate application functionality, reliability, security, and performance across supported devices and operating systems.',
+      bullets: [
+        'Implement unit, integration, and end-to-end testing.',
+        'Validate API responses, data integrity, and error handling.',
+        'Test compatibility across supported devices and OS versions.',
+        'Profile application performance, memory usage, and battery consumption.',
+        'Identify security vulnerabilities and resolve critical defects.',
+      ],
+    },
+    {
+      number: '06',
+      title: 'Deployment & Release',
+      text: 'We prepare production builds, configure release environments, and manage deployment to the relevant application stores.',
+      bullets: [
+        'Configure production builds, signing certificates, and provisioning.',
+        'Set up environment-specific configuration and release parameters.',
+        'Prepare application metadata, screenshots, and store listings.',
+        'Submit releases to the Apple App Store and Google Play Store.',
+        'Verify production functionality and monitor deployment issues.',
+      ],
+    },
+    {
+      number: '07',
+      title: 'Maintenance & Optimization',
+      text: 'We maintain application reliability, monitor production performance, and evolve functionality in response to user needs.',
+      bullets: [
+        'Monitor crashes, application performance, and operational metrics.',
+        'Resolve production defects and compatibility issues.',
+        'Maintain dependencies and support operating system updates.',
+        'Analyze usage analytics and user feedback to identify improvements.',
+        'Optimize performance and extend application capabilities as requirements evolve.',
+      ],
+    },
+  ],
+},
+
 
   // =========================
   // DESKTOP APP MVP
@@ -384,7 +386,7 @@ const lifecycleData = {
   // =========================
 
   native: {
-    title: 'Native Mobile Development',
+    title: 'Native Mobile Application Development',
     description:
       'Build high-performance mobile applications specifically designed for iOS or Android.',
     steps: [
