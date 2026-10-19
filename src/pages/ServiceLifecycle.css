@@ -37,6 +37,8 @@
 }
 
 .step-content {
+  flex: 1;
+  min-width: 0; /* lets long text wrap instead of overflowing */
   padding-top: 5px;
 }
 
