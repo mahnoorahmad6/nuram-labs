@@ -53,7 +53,7 @@ const services = [
     slug: 'mobile-development',
     text: 'Create high-quality mobile applications that deliver seamless experiences across devices and platforms.',
     items: [
-      { title: 'MVP Development', link: '/services/mobile/mvp', text: 'Launch your mobile product quickly with the essential features.' },
+    
       { title: 'Native Development', link: '/services/mobile/native', text: 'Build high-performance applications specifically for iOS or Android.' },
       { title: 'Cross-Platform Development', link: '/services/mobile/cross-platform', text: 'Develop applications that work across multiple platforms from a single codebase.' },
     ],
