@@ -83,10 +83,12 @@
 .form-group textarea { resize: vertical; }
 
 .submit-btn {
-  width: 100%;
+   width: 100%;
   border: none;
   font-size: 1rem;
-   font-family: var(--font-serif);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-style: normal;
   
 }
 
