@@ -76,7 +76,7 @@ export default function About() {
         <div className="container">
           <div className="section-head fade-up visible">
             <p className="eyebrow">Leadership</p>
-            <h2 className="section-title">Meet The Team</h2>
+            <h2 className="section-title">Meet The Man Behind Nuram</h2>
           </div>
           <div className="team-grid">
             {team.map((member) => (
