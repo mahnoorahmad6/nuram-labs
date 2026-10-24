@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
+
 import './ServiceLifecycle.css';
 import './AIDetail.css';
 
@@ -561,7 +561,6 @@ export default function ServiceLifecycle() {
 
   if (!service) {
     return (
-      
       <section className="lifecycle-page">
         <div className="container">
           <h1>Service Not Found</h1>
@@ -574,11 +573,6 @@ export default function ServiceLifecycle() {
   return (
     <>
       {/* HERO */}
-       <Helmet>
-      <title>{service.title} | Nuram Labs</title>
-      <meta name="description" content={service.description} />
-    </Helmet>
-
       <section className="page-hero">
         <div className="container">
           <p className="eyebrow">Our Process</p>
