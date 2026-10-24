@@ -161,7 +161,7 @@
 
 .team-card {
   width: 100%;
-  max-width: 320px; /* controls how big the photo/card is */
+  max-width: 450px; /* controls how big the photo/card is */
 }
 
 /* Targets only the main photo, not the LinkedIn icon */
