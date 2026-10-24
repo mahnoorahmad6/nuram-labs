@@ -585,7 +585,7 @@ export default function IndustryDetail() {
   return (
     <>
      <Helmet>
-      <title>{industry.title} | Nuram Labs</title>
+      <title>{`${industry.title} | Nuram Labs`}</title>
       <meta name="description" content={industry.intro} />
     </Helmet>
 

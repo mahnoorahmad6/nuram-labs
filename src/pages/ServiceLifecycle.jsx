@@ -575,7 +575,7 @@ export default function ServiceLifecycle() {
     <>
       {/* HERO */}
        <Helmet>
-      <title>{service.title} | Nuram Labs</title>
+      <title>{`${industry.title} | Nuram Labs`}</title>
       <meta name="description" content={service.description} />
     </Helmet>
 
