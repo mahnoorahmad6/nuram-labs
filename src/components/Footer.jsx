@@ -24,7 +24,7 @@ export default function Footer() {
         <div className="footer-col">
           <h4>Contact</h4>
          <a href="mailto:sales@nuramlabs.com">
-  sales@nurumlabs.com
+  sales@nuramlabs.com
 </a>
          <a
   href="https://wa.me/923001234567"

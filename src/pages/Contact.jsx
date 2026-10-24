@@ -67,7 +67,7 @@ export default function Contact() {
               <div className="info-icon">✉</div>
               <div>
                 <h4>Email</h4>
-                <a href="mailto:hello@nuramlabs.com">hello@nuramlabs.com</a>
+                <a href="mailto:sales@nuramlabs.com">sales@nuramlabs.com</a>
               </div>
             </div>
 
