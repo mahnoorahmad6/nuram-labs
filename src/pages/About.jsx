@@ -6,6 +6,7 @@ import './AIDetail.css';
 import { Link } from 'react-router-dom';
 import woman from '../assets/woman.jpeg';
 import umair from '../assets/umair.jpg';
+import { Helmet } from 'react-helmet-async';
 const team = [
   { name: 'Umair Ahmed', role: 'Founder', img: umair ,linkedin: 'http://linkedin.com/in/umairahmedtoor/'},
   { name: 'Mahnoor Ahmad', role: 'Co-Founder', img: woman ,linkedin: 'https://www.linkedin.com/in/mahnoor-ahmad-47b169225/'},
@@ -27,6 +28,7 @@ export default function About() {
           content="Learn about Nuram Labs, our team, and our approach to digital solutions."
         />
       </Helmet>
+
       <section className="page-hero">
         <div className="container">
           <p className="eyebrow">About Us</p>
