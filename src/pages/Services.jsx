@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useLocation, Link } from 'react-router-dom';
 import './AIDetail.css';
 import './Services.css';
-
+import { Helmet } from 'react-helmet-async';
 
 const services = [
   {
