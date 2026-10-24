@@ -262,8 +262,15 @@
   }
 
   .team-grid {
-    max-width: 800px;
-    gap: 35px;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 55px;
+
+  max-width: 1050px;
+  margin: 0 auto;
+
+  text-align: center;
   }
 }
 
