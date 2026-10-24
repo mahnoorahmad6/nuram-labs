@@ -5,7 +5,7 @@ import linkedinLogo from '../assets/linkedin.svg';
 import './AIDetail.css';
 import { Link } from 'react-router-dom';
 import woman from '../assets/woman.jpeg';
-import umair from '../assets/umair.jpg';
+import umair from '../assets/umair.png';
 import { Helmet } from 'react-helmet-async';
 const team = [
   { name: 'Umair Ahmed', role: 'Founder', img: umair ,linkedin: 'http://linkedin.com/in/umairahmedtoor/'},
