@@ -4,6 +4,7 @@ import Button from '../components/Button';
 import useFadeIn from '../hooks/useFadeIn';
 import './Home.css';
 import './AIDetail.css';
+import { Helmet } from 'react-helmet-async';
 
 function CtaBand() {
   const ref = useFadeIn();
@@ -29,7 +30,15 @@ export default function Home() {
   const servicesRef = useFadeIn();
 
   return (
+
     <>
+      <Helmet>
+        <title>About Us | Nuram Labs</title>
+        <meta
+          name="description"
+          content="Learn about Nuram Labs, our team, and our approach to digital solutions."
+        />
+      </Helmet>
       <section className="hero">
         <div className="container hero-grid" ref={heroRef}>
           <div className="hero-text fade-up visible">
