@@ -169,7 +169,7 @@
  
   width: 100%;
   height: auto;
-  object-fit: contain; /* use "contain" if you don't want cropping */
+   /* use "contain" if you don't want cropping */
   margin: 0 auto 20px;
   border-radius: 14px;
   display: block;
