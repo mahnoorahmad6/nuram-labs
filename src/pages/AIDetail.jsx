@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import './AIDetail.css';
-
+import { Helmet } from 'react-helmet-async';
 const aiData = {
   chatbots: {
     title: 'AI Chatbots',
@@ -231,6 +231,11 @@ export default function AIDetail() {
 
   return (
     <>
+     <Helmet>
+      <title>{ai.title} | Nuram Labs</title>
+      <meta name="description" content={ai.intro} />
+    </Helmet>
+
       <section className="ai-hero">
         <div className="container">
           <p className="eyebrow">AI Development</p>
