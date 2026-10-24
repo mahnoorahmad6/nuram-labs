@@ -2,7 +2,7 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import './IndustryDetail.css';
-
+import { Helmet } from 'react-helmet-async';
 const industryData = {
 
   'project-management': {
@@ -584,6 +584,11 @@ export default function IndustryDetail() {
 
   return (
     <>
+     <Helmet>
+      <title>{industry.title} | Nuram Labs</title>
+      <meta name="description" content={industry.intro} />
+    </Helmet>
+
 
       <section className="industry-hero">
         <div className="container">

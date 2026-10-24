@@ -98,6 +98,13 @@ export default function Services() {
 
   return (
     <>
+    <Helmet>
+      <title>Our Services | Nuram Labs</title>
+      <meta
+        name="description"
+        content="Explore MVP development, AI development, mobile apps, and industry-specific software solutions from Nuram Labs."
+      />
+    </Helmet>
       <section className="page-hero">
         <div className="container">
           <p className="eyebrow">What We Offer</p>

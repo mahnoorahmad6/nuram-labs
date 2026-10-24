@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Contact.css';
 import { FaInstagram, FaLinkedinIn, FaFacebookF, FaXTwitter } from 'react-icons/fa6';
-
+import { Helmet } from 'react-helmet-async';
 const socialLinks = [
   { label: 'Instagram', Icon: FaInstagram, href: 'https://instagram.com/noorumlabs' },
   { label: 'LinkedIn', Icon: FaLinkedinIn, href: 'https://linkedin.com/company/nuramlabs' }
@@ -41,6 +41,13 @@ export default function Contact() {
 
   return (
     <>
+       <Helmet>
+      <title>Contact Us | Nuram Labs</title>
+      <meta
+        name="description"
+        content="Get in touch with Nuram Labs to discuss your project. Reach us by email, WhatsApp, or the contact form."
+      />
+    </Helmet>
       <section className="page-hero">
         <div className="container">
           <p className="eyebrow">Get In Touch</p>
