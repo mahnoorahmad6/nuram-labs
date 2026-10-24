@@ -146,20 +146,8 @@
   margin-bottom: 60px;
 }
 
-.team-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 55px;
 
-  max-width: 1050px;
-  margin: 0 auto;
 
-  text-align: center;
-}
-
-.team-card {
-  width: 100%;
-}
 
 .team-card img {
  
@@ -314,11 +302,6 @@
     padding: 80px 0;
   }
 
-  .team-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 25px;
-  }
-
   .team-card h3 {
     font-size: 1.3rem;
   }
@@ -361,11 +344,10 @@
     padding: 30px 22px;
   }
 
-  .team-grid {
-    grid-template-columns: 1fr;
-    max-width: 430px;
-    gap: 45px;
-  }
+  .team-card {
+  width: 100%;
+  max-width: 320px; /* controls how big the card/photo is */
+}
 
   .team-card img {
     border-radius: 12px;
