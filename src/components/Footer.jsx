@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import './Footer.css';
 import { FaInstagram, FaLinkedinIn} from 'react-icons/fa6';
 const socialLinks = [
-  { label: 'Instagram', Icon: FaInstagram, href: 'https://instagram.com/noorumlabs' },
   { label: 'LinkedIn', Icon: FaLinkedinIn, href: 'https://linkedin.com/company/nuramlabs' }
 ];
 
@@ -24,8 +23,8 @@ export default function Footer() {
         </div>
         <div className="footer-col">
           <h4>Contact</h4>
-         <a href="mailto:hello@noorumlabs.com">
-  hello@noorumlabs.com
+         <a href="mailto:sales@nuramlabs.com">
+  sales@nurumlabs.com
 </a>
          <a
   href="https://wa.me/923001234567"

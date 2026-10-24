@@ -3,7 +3,7 @@ import './Contact.css';
 import { FaInstagram, FaLinkedinIn, FaFacebookF, FaXTwitter } from 'react-icons/fa6';
 import { Helmet } from 'react-helmet-async';
 const socialLinks = [
-  { label: 'Instagram', Icon: FaInstagram, href: 'https://instagram.com/noorumlabs' },
+ 
   { label: 'LinkedIn', Icon: FaLinkedinIn, href: 'https://linkedin.com/company/nuramlabs' }
 ];
 
@@ -22,7 +22,7 @@ export default function Contact() {
     setStatus('sending');
 
     try {
-      const res = await fetch('https://formsubmit.co/ajax/ahmadmahnoor.06@gmail.com', {
+      const res = await fetch('https://formsubmit.co/ajax/sales@nuramlabs.com', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify(formData),
@@ -92,6 +92,20 @@ export default function Contact() {
               <div>
                 <h4>U.S. Office</h4>
                 <p>479 Half Hollow Rd, Dix Hills, NY 11746, USA</p>
+              </div>
+            </div>
+             <div className="info-item">
+              <div className="info-icon">📍</div>
+              <div>
+                <h4>Canada Office</h4>
+                <p>1 Antelope Dr, Scarborough, ON M1B 6K4, Canada </p>
+              </div>
+            </div>
+             <div className="info-item">
+              <div className="info-icon">📍</div>
+              <div>
+                <h4>U.K Office</h4>
+                <p>64 Glenthorne Gardens, Clayhall, Ilford IG6 1LA,UK</p>
               </div>
             </div>
             <div className="info-item">

@@ -32,13 +32,7 @@ export default function Home() {
   return (
 
     <>
-      <Helmet>
-        <title>About Us | Nuram Labs</title>
-        <meta
-          name="description"
-          content="Learn about Nuram Labs, our team, and our approach to digital solutions."
-        />
-      </Helmet>
+     
       <section className="hero">
         <div className="container hero-grid" ref={heroRef}>
           <div className="hero-text fade-up visible">
