@@ -20,6 +20,13 @@ const values = [
 export default function About() {
   return (
     <>
+     <Helmet>
+        <title>About Us | Nuram Labs</title>
+        <meta
+          name="description"
+          content="Learn about Nuram Labs, our team, and our approach to digital solutions."
+        />
+      </Helmet>
       <section className="page-hero">
         <div className="container">
           <p className="eyebrow">About Us</p>
