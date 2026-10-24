@@ -10,7 +10,7 @@ import Contact from './pages/Contact';
 import ServiceLifecycle from './pages/ServiceLifecycle';
 import IndustryDetail from './pages/IndustryDetail';
 import AIDetail from './pages/AIDetail';
-
+import "./App.css";
 export default function App() {
   return (
     <BrowserRouter>
