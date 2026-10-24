@@ -232,8 +232,8 @@ export default function AIDetail() {
   return (
     <>
      <Helmet>
-      <title>{ai.title} | Nuram Labs</title>
-      <meta name="description" content={ai.intro} />
+        <title>{`${ai.title} | Nuram Labs`}</title>
+  <meta name="description" content={ai.intro} />
     </Helmet>
 
       <section className="ai-hero">
