@@ -1,0 +1,6 @@
+text version: STSv1
+mode: enforce
+mx: ://zoho.com
+mx: ://zoho.com
+mx: ://zoho.com
+max_age: 604800
