@@ -27,11 +27,11 @@ export default function Footer() {
   sales@nuramlabs.com
 </a>
          <a
-  href="https://wa.me/923001234567"
+  href="https://wa.me/6479816445"
   target="_blank"
   rel="noopener noreferrer"
 >
-  +92 300 1234567
+  647-981-6445
 </a>
   <div className="social-links-row">
     {socialLinks.map(({ label, Icon, href }) => (

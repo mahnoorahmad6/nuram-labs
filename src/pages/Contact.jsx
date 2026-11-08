@@ -75,7 +75,7 @@ export default function Contact() {
               <div className="info-icon">☎</div>
               <div>
                 <h4>WhatsApp</h4>
-                <a href="https://wa.me/923001234567" target="_blank" rel="noopener noreferrer">+92 300 1234567</a>
+                <a href="https://wa.me/6479816445" target="_blank" rel="noopener noreferrer">+92 300 1234567</a>
               </div>
             </div>
 
